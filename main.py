@@ -18,6 +18,7 @@ def main():
     print("🚀 Khởi động IoT Data Simulator...")
     try:
         while True:
+            # Sinh dữ liệu và in ra màn hình
             data = generate_sensor_data()
             print(f"[DATA] {json.dumps(data)}")
             time.sleep(2)
